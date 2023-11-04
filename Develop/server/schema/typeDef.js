@@ -4,8 +4,8 @@ type User{
     _id: ID
     username: String
     email: String
-    bookCount: INT
-    savedBooks: Book[]
+    bookCount: Int
+    savedBooks: [Book]
 }
 type Book{
     bookId: ID
